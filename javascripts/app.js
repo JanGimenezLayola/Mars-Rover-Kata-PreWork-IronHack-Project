@@ -8,7 +8,7 @@ console.log('Mars Rover Kata created by Jan Gimenez Layola in June 2019 --- Iron
 
 
 // Rover Object Definition
-var rover = {
+const rover = {
   direction: 'N',
   x : 0,
   y : 0,
@@ -17,7 +17,7 @@ var rover = {
 
 
 // Obstacles Var Definition
-var obstacles = {
+const obstacles = {
   x: [0, 1, 2, 2, 4, 6, 7],
   y: [6, 0, 2, 7, 4, 3, 8],
 };
@@ -158,7 +158,7 @@ function commandRover1(letter) {
 
 
 // Mars Rover 2
-var rover2 = {
+const rover2 = {
   direction: 'N',
   x : 1,
   y : 1,
